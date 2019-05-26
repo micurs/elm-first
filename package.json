@@ -1,0 +1,15 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && elm make src/main.elm --optimize --output dist/main.html",
+    "start": "elm reactor"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "elm": "^0.19.0-no-deps",
+    "rimraf": "^2.6.3"
+  }
+}
