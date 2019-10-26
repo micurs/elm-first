@@ -4,7 +4,8 @@ import Html exposing (Html, button, text, Attribute)
 import Html.Attributes exposing (style)
 
 buttonStyle = [
-  style "margin" "10px",
+  style "min-width" "100px",
+  style "margin" "18px",
   style "padding" "6px"
   ]
 

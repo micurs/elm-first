@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Browser
-import Html exposing (Html, div, button, text, span, Attribute)
+import Html exposing (Html, div, span, text, Attribute)
 import Html.Events exposing (onClick)
 import Html.Attributes exposing (style)
 
@@ -39,7 +39,8 @@ mainStyle =
     style "padding" "1rem"
 
 elmStyle = [
-  style "margin" "10px",
+  style "border" "solid 5px red",
+  style "margin" "50px",
   style "padding" "6px"
   ]
 
